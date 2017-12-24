@@ -1,4 +1,4 @@
-iFROM nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
+FROM nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
 
 RUN apt-get upgrade && apt-get update
 RUN apt-get install -y --no-install-recommends \
